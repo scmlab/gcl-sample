@@ -1,4 +1,6 @@
 {
     "name": "GCL Development",
-    "image": "ghcr.io/lcamel/gcl-all:latest"
+    "image": "ghcr.io/lcamel/gcl-all:latest",
+    "remoteUser": "vscode",
+    "postCreateCommand": "bash -c 'code --install-extension ~/gcl-vscode-*.vsix'"
 }
