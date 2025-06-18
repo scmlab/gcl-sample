@@ -1,6 +1,14 @@
 {
     "name": "GCL Development",
     "image": "ghcr.io/lcamel/gcl-all:latest",
+    "runArgs": ["--platform=linux/amd64"],
+    "initializeCommand": "docker pull ghcr.io/lcamel/gcl-all:latest --platform=linux/amd64",
     "remoteUser": "vscode",
-    "postCreateCommand": "bash -c 'code --install-extension ~/gcl-vscode-*.vsix'"
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "/home/vscode/gcl-vscode-0.0.1.vsix"
+            ]
+        }
+    }
 }
