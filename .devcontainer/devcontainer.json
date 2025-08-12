@@ -1,8 +1,8 @@
 {
     "name": "GCL Development",
-    "image": "ghcr.io/lcamel/gcl-all:latest",
+    "image": "ghcr.io/scmlab/gcl-all:latest",
     "runArgs": ["--platform=linux/amd64"],
-    "initializeCommand": "docker pull ghcr.io/lcamel/gcl-all:latest --platform=linux/amd64",
+    "initializeCommand": "docker pull ghcr.io/scmlab/gcl-all:latest --platform=linux/amd64",
     "remoteUser": "vscode",
     "customizations": {
         "vscode": {
