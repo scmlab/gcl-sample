@@ -1,5 +1,7 @@
 # gcl-sample
 
+🎬 https://youtu.be/gWbU7zd2YK8
+
 GCL examples for local Visual Studio Code.
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/).
